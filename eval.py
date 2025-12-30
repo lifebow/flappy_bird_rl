@@ -8,7 +8,7 @@ def evaluate():
     
     # Load the trained model
     try:
-        model = PPO.load("checkpoints/ppo_checkpoint_600000_steps")
+        model = PPO.load("best_model")
         print("Model loaded successfully.")
     except Exception as e:
         print(f"Error loading model: {e}")

@@ -10,7 +10,7 @@ GRAVITY = 0.5
 FLAP_STRENGTH = -8
 BIRD_X = 50
 PIPE_SPEED = 3
-PIPE_GAP = 100
+PIPE_GAP = 120
 PIPE_SPAWN_RATE = 1500  # milliseconds
 
 # Reward constants

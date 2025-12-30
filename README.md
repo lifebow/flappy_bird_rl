@@ -68,6 +68,14 @@ Xem "thành quả" của Agent sau khi huấn luyện.
 python eval.py
 ```
 
+**Chọn model để eval**: Sửa dòng `PPO.load(...)` trong `eval.py`:
+
+| Model | Dòng code |
+|-------|-----------|
+| Model tốt nhất | `PPO.load("best_model")` |
+| Checkpoint cụ thể | `PPO.load("checkpoints/ppo_checkpoint_100000_steps")` |
+| Model cuối cùng | `PPO.load("ppo_flappy_bird_new")` |
+
 ## 📝 Reward Logic
 
 Hệ thống Reward được thiết kế để khuyến khích chim bay qua khe hở:
